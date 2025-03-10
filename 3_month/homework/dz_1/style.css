@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 300px 300px;
+    font-size: 16px;
+    background-image: url("https://bigzoo.com.ua/image/cache/catalog/Animals/Gryzuny/khomyaki/siriyskiye/gladkosherstnyye/trekhtsvetnyy/trekhtsvetnyy2-750x750-product_thumb.jpg");
+    /*background-color: #4CAF50;*/
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.stats {
+    margin-top: 20px;
+}
+
+.stats p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.stats .energy {
+    color: #FF6347;
+}
+
+.stats .coins {
+    color: #FFD700;
+}
